@@ -29,7 +29,7 @@ https://yomu-community.github.io/addons/index.json
 
 ## For Developers: Creating an Addon
 
-Yomu Addons use a lightweight HTTP/JSON protocol inspired by Stremio.
+Yomu Addons use a lightweight HTTP/JSON protocol.
 Check [`schemas/manifest.schema.json`](./schemas/manifest.schema.json) for the full specification.
 
 To submit your addon, open a Pull Request modifying `index.json`.

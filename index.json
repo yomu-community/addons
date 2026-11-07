@@ -1,0 +1,28 @@
+{
+  "name": "Yomu Community Addons Repository",
+  "version": "1.0.0",
+  "description": "Kho tiện ích mở rộng nguồn truyện tranh & sách mở cho Yomu Reader",
+  "last_updated": 1794124800,
+  "addons": [
+    {
+      "id": "org.yomu.addon.mangadex",
+      "name": "MangaDex Community Bridge",
+      "version": "1.0.0",
+      "description": "Khám phá và đọc hàng chục ngàn bộ manga, manhwa, manhua đa ngôn ngữ từ MangaDex API v5.",
+      "author": "Yomu Community",
+      "types": ["manga"],
+      "icon_url": "https://raw.githubusercontent.com/yomu-community/addons/main/icons/mangadex.png",
+      "manifest_url": "https://mangadex-bridge.yomu.workers.dev/manifest.json"
+    },
+    {
+      "id": "org.yomu.addon.gutenberg",
+      "name": "Project Gutenberg Classics",
+      "version": "1.0.0",
+      "description": "Thư viện hơn 70.000 tác phẩm văn học kinh điển thế giới hoàn toàn miễn phí & công cộng.",
+      "author": "Project Gutenberg",
+      "types": ["book"],
+      "icon_url": "https://raw.githubusercontent.com/yomu-community/addons/main/icons/gutenberg.png",
+      "manifest_url": "https://raw.githubusercontent.com/yomu-community/addons/main/static-addons/gutenberg-classics.json"
+    }
+  ]
+}

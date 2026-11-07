@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "YomuAddonManifest",
+  "type": "object",
+  "required": ["id", "name", "version"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Mã định danh duy nhất của Addon theo dạng reversed domain (ví dụ: org.community.mangadex)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Tên hiển thị của Addon"
+    },
+    "version": {
+      "type": "string",
+      "description": "Phiên bản semver (ví dụ: 1.0.0)"
+    },
+    "description": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "icon_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["manga", "comic", "book"]
+      }
+    },
+    "catalogs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type_name": { "type": "string", "default": "manga" }
+        }
+      }
+    },
+    "supported_languages": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "base_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "org.yomu.addon.gutenberg",
+  "name": "Project Gutenberg Classics",
+  "version": "1.0.0",
+  "description": "Tuyển tập sách kinh điển thế giới định dạng EPUB công cộng.",
+  "author": "Project Gutenberg",
+  "types": ["book"],
+  "catalogs": [
+    {
+      "id": "classics",
+      "name": "Văn học Kinh điển",
+      "type_name": "book"
+    }
+  ],
+  "supported_languages": ["en", "fr", "de", "vi"],
+  "base_url": "https://raw.githubusercontent.com/yomu-community/addons/main/static-addons"
+}

@@ -1,0 +1,44 @@
+{
+  "series": [
+    {
+      "id": "gutenberg-frankenstein",
+      "library_id": "classics",
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "summary": "Tác phẩm kinh điển của Mary Wollstonecraft Shelley kể về nhà khoa học Victor Frankenstein và sinh vật nhân tạo đầy bi kịch.",
+      "books_count": 1,
+      "cover_url": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
+      "authors": ["Mary Wollstonecraft Shelley"],
+      "genres": ["Gothic", "Science Fiction", "Classic"]
+    },
+    {
+      "id": "gutenberg-pride-prejudice",
+      "library_id": "classics",
+      "title": "Pride and Prejudice",
+      "summary": "Tiểu thuyết lãng mạn kinh điển của Jane Austen xoay quanh Elizabeth Bennet và ngài Darcy ở thế kỷ 19.",
+      "books_count": 1,
+      "cover_url": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
+      "authors": ["Jane Austen"],
+      "genres": ["Romance", "Classic", "Literature"]
+    },
+    {
+      "id": "gutenberg-alice-wonderland",
+      "library_id": "classics",
+      "title": "Alice's Adventures in Wonderland",
+      "summary": "Cuộc phiêu lưu vào xứ sở thần tiên của Lewis Carroll, một trong những tác phẩm văn học thiếu nhi kinh điển nhất thế giới.",
+      "books_count": 1,
+      "cover_url": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
+      "authors": ["Lewis Carroll"],
+      "genres": ["Fantasy", "Children", "Classic"]
+    },
+    {
+      "id": "gutenberg-sherlock-holmes",
+      "library_id": "classics",
+      "title": "The Adventures of Sherlock Holmes",
+      "summary": "Tập truyện ngắn trinh thám nổi tiếng của Arthur Conan Doyle về thám tử đại tài Sherlock Holmes và bác sĩ Watson.",
+      "books_count": 1,
+      "cover_url": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+      "authors": ["Arthur Conan Doyle"],
+      "genres": ["Mystery", "Detective", "Classic"]
+    }
+  ]
+}

@@ -12,7 +12,7 @@
       "author": "Yomu Community",
       "types": ["manga"],
       "icon_url": "https://raw.githubusercontent.com/yomu-community/addons/main/icons/mangadex.png",
-      "manifest_url": "https://mangadex-bridge.yomu.workers.dev/manifest.json"
+      "manifest_url": "https://mangadex-bridge.yomu-addons.workers.dev/manifest.json"
     },
     {
       "id": "org.yomu.addon.gutenberg",

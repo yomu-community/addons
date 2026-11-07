@@ -22,7 +22,7 @@ https://yomu-community.github.io/addons/index.json
 
 | Addon Name | Type | Manifest Link | Description |
 | :--- | :---: | :--- | :--- |
-| **MangaDex Bridge** | `manga` | `https://mangadex-bridge.yomu.workers.dev/manifest.json` | Khám phá manga, manhwa trực tuyến từ MangaDex API v5 |
+| **MangaDex Bridge** | `manga` | `https://mangadex-bridge.yomu-addons.workers.dev/manifest.json` | Khám phá manga, manhwa trực tuyến từ MangaDex API v5 |
 | **Project Gutenberg** | `book` | `https://raw.githubusercontent.com/yomu-community/addons/main/static-addons/gutenberg-classics.json` | Hơn 70.000 tác phẩm văn học kinh điển thế giới (Public Domain) |
 
 ---
